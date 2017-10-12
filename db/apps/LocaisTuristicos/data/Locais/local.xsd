@@ -1,0 +1,27 @@
+<xs:schema xmlns:formulario="http://mysampleapp.local.estgf.ipp.pt" xmlns:common="http://mysampleapp.comum.estgf.ipp.pt" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://mysampleapp.local.estgf.ipp.pt" elementFormDefault="qualified">
+    <xs:import schemaLocation="../TiposComuns.xsd" namespace="http://mysampleapp.comum.estgf.ipp.pt"/>
+  
+    <xs:complexType name="localType">
+            <xs:sequence>
+                <xs:element name="id" type="common:idType"/>
+                <xs:element name="email" type="common:emailType"/>
+                <xs:element name="data" type="xs:string"/>
+                <xs:element name="foto" type="common:urlType"/>
+                <xs:element name="nomeLocal" type="common:stringMediaType"/>
+                <xs:element name="nomeFuncionario" type="common:stringPequenaType"/>
+                <xs:element name="latitude" type="common:coordenadasType"/>
+                <xs:element name="longitude" type="common:coordenadasType"/>               
+            </xs:sequence>
+        </xs:complexType>
+    
+    <xs:element name="local" type="formulario:localType"/>       
+
+   
+    <xs:element name="listaDeLocais">
+      <xs:complexType>
+            <xs:sequence maxOccurs="unbounded" minOccurs="0">
+                <xs:element name="local" type="formulario:localType"/>                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

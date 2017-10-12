@@ -1,0 +1,12 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/LocaisTuristicos/data/Funcionarios" owner="admin" group="dba" mode="755" created="2017-06-03T23:06:10+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="funcionario.xsd" owner="admin" group="dba" mode="644" created="2017-06-03T23:06:10+01:00" modified="2017-06-09T04:33:47+01:00" filename="funcionario.xsd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lista-de-funcionarios.xml" owner="admin" group="dba" mode="644" created="2017-06-03T23:06:10+01:00" modified="2017-06-11T22:28:09+01:00" filename="lista-de-funcionarios.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="funcionario.xml" owner="admin" group="dba" mode="644" created="2017-06-03T23:06:10+01:00" modified="2017-06-05T02:22:13+01:00" filename="funcionario.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

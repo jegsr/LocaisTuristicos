@@ -1,0 +1,9 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/LocaisTuristicos/templates/Privado" owner="admin" group="dba" mode="755" created="2017-06-09T04:24:16+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="mapa.xquery" owner="admin" group="Funcionario" mode="750" created="2017-06-03T23:06:10+01:00" modified="2017-06-11T22:30:23+01:00" filename="mapa.xquery" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="detalhes.xquery" owner="admin" group="Funcionario" mode="750" created="2017-06-03T23:06:10+01:00" modified="2017-06-10T05:43:31+01:00" filename="detalhes.xquery" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

@@ -1,0 +1,16 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/LocaisTuristicos/data/Locais" owner="admin" group="dba" mode="755" created="2017-06-03T23:06:10+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="lista-de-locaisInvalidos.xml" owner="admin" group="Funcionario" mode="664" created="2017-06-03T23:06:10+01:00" modified="2017-06-11T22:27:53+01:00" filename="lista-de-locaisInvalidos.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="local.xml" owner="admin" group="dba" mode="644" created="2017-06-03T23:06:10+01:00" modified="2017-06-03T23:06:10+01:00" filename="local.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="local.xsd" owner="admin" group="dba" mode="644" created="2017-06-03T23:06:10+01:00" modified="2017-06-09T02:42:16+01:00" filename="local.xsd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lista-de-locaisValidos.xml" owner="admin" group="Funcionario" mode="664" created="2017-06-03T23:06:10+01:00" modified="2017-06-11T22:27:58+01:00" filename="lista-de-locaisValidos.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="Kml" filename="Kml"/>
+</collection>

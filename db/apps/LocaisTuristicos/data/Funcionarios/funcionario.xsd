@@ -1,0 +1,25 @@
+<xs:schema xmlns:common="http://mysampleapp.comum.estgf.ipp.pt" xmlns:funcionario="http://mysampleapp.funcionario.estgf.ipp.pt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://mysampleapp.funcionario.estgf.ipp.pt" elementFormDefault="qualified" vc:minVersion="1.1">
+    <xs:import schemaLocation="../TiposComuns.xsd" namespace="http://mysampleapp.comum.estgf.ipp.pt"/>
+    
+    
+    
+    <xs:complexType name="utilizadorType">
+        <xs:sequence>
+            <xs:element name="username" type="common:usernameType"/>
+            <xs:element name="nome" type="common:stringPequenaType"/>
+            <xs:element name="email" type="common:emailType"/>
+            <xs:element name="password" type="common:passwordType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="funcionario" type="funcionario:utilizadorType"/>
+        
+    
+    <xs:element name="listaDeFuncionarios">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded" minOccurs="0">
+                <xs:element name="funcionario" type="funcionario:utilizadorType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

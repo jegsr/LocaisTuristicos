@@ -1,0 +1,6 @@
+<funcionario:funcionario xmlns:funcionario="http://mysampleapp.funcionario.estgf.ipp.pt" xmlns:xsi="http://www.w3.aluno/2001/XMLSchema-instance">
+    <funcionario:username/>
+    <funcionario:nome/>
+    <funcionario:email/>
+    <funcionario:password/>
+</funcionario:funcionario>

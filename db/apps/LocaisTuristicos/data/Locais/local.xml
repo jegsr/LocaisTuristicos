@@ -1,0 +1,12 @@
+<formulario:local xmlns:formulario="http://mysampleapp.local.estgf.ipp.pt">
+    
+    <formulario:id/>
+    <formulario:email/>
+    <formulario:data/>
+    <formulario:foto/>
+    <formulario:nomeLocal/>
+    <formulario:nomeFuncionario/>
+    <formulario:latitude/>
+    <formulario:longitude/>
+    
+  </formulario:local>

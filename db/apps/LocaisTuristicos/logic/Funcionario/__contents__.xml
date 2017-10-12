@@ -1,0 +1,9 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/LocaisTuristicos/logic/Funcionario" owner="admin" group="dba" mode="775" created="2017-06-03T23:06:10+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="aprovar.xquery" owner="admin" group="Funcionario" mode="750" created="2017-06-03T23:06:10+01:00" modified="2017-06-10T05:24:59+01:00" filename="aprovar.xquery" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rejeitar.xquery" owner="admin" group="Funcionario" mode="750" created="2017-06-03T23:06:10+01:00" modified="2017-06-09T05:07:22+01:00" filename="rejeitar.xquery" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

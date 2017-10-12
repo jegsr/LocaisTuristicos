@@ -1,0 +1,63 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://mysampleapp.comum.estgf.ipp.pt" elementFormDefault="qualified">
+    
+    <xs:simpleType name="passwordType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z\d\W]*"/>
+            <xs:minLength value="5"/>
+            <xs:maxLength value="16"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    <xs:simpleType name="grupoType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Funcionario"/>
+            <xs:enumeration value="Funcionario1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="coordenadasType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(\-?\d+(\.\d+)?)"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="emailType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z0-9\-\.\+_]+\@[a-z0-9\.\-]+\.[a-z0-9]{2,4}"/>
+        </xs:restriction>
+    </xs:simpleType>    
+    
+    <xs:simpleType name="idType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="uuid:([a-z]|\d|-)*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="urlType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="http(|s):(\/|[a-z]|\s|%|=|\+|\?|\-|.)+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="usernameType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="4"/>
+            <xs:maxLength value="16"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="stringPequenaType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="4"/>
+            <xs:maxLength value="25"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="stringMediaType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="15"/>
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

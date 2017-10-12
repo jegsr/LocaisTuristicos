@@ -1,0 +1,118 @@
+.intro-section {
+     background-image: url("../images/turista.jpg") ;
+     background-size: cover;
+     background-repeat:no-repeat;
+     text-align: left;
+     
+}
+
+.services-section{
+     background-image:url("../images/felgueiras.jpg");
+     background-size: 100% 100%;
+     background-repeat:no-repeat;
+     text-align: left;
+     min-height:750px;
+     
+}
+
+.intro-section,.about-section{
+    min-height:900px
+}
+#btn-bootstrap{
+    color:#fff;
+}
+
+.about-section{
+    padding-top:50px;
+    padding-bottom:50px
+}
+
+
+.services-section  .well-title{
+    text-align:center
+}
+
+.well-transparent {
+    background-color:rgba(245,245,245,0.7)
+}
+
+.well-title{
+    margin-bottom:15px;
+    border-bottom: 1px solid white;
+}
+
+.well-title > h1,.well-title > h2{
+    display:inline-block;
+}
+
+
+
+.user{
+    cursor:pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.input-group{
+       margin:5px;
+      width: 100%;
+}
+  
+.input-group-addon{
+      width: 45%;
+      text-align: left;
+}
+  
+.form-control {
+      width: 55%;
+}
+
+.my-group .form-control{
+    width:50%;
+}
+
+.input-group-foto{
+    margin: 5px;
+    width: 100%;
+    position:relative;
+    border-collapse: separate;
+}
+
+.btn-download{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.label-foto{
+    display:inherit;
+    margin-right:5px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    vertical-align: middle;
+    background:#eee;
+    border-radius:0px;
+    border-top-left-radius: 4px;    
+    border-top-right-radius: 4px;
+}
+.imput-foto{
+    width:100%;
+    max-height:363px;
+    height:100%;
+}
+legend{
+    width:80%;
+    border-bottom-color:white;
+}

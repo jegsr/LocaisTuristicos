@@ -1,0 +1,8 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/LocaisTuristicos/data" owner="admin" group="dba" mode="755" created="2017-06-03T23:06:10+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="TiposComuns.xsd" owner="admin" group="dba" mode="644" created="2017-06-03T23:06:10+01:00" modified="2017-06-09T03:25:15+01:00" filename="TiposComuns.xsd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="Locais" filename="Locais"/>
+    <subcollection name="Funcionarios" filename="Funcionarios"/>
+</collection>
